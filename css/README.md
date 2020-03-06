@@ -6,6 +6,6 @@ Every thing is ordered in the way it is practised in videos.
 
 💁🏻‍ Join
 
-👉🏻 WhatsApp Group
-👉🏻 Like Facebook Page
-👉🏻 Youtube Channel
+- 👉🏻 WhatsApp Group
+- 👉🏻 Like Facebook Page
+- 👉🏻 Youtube Channel
