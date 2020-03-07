@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="bg-danger text-center text-white p-3 m-0">My Website</h1>
+    <nav class="bg-primary text-center p-2 m-0">
+        <a class="text-white p-3" href="#">HOME</a>
+        <a class="text-white p-3" href="#">ABOUT</a>
+        <a class="text-white p-3" href="#">CONTACT</a>
+        <a class="text-white p-3" href="#">BLOGS</a>
+    </nav>
+    <section class="text-center p-5 bg-warning" style="height: 470px;">
+        <p>this is content area</p>
+    </section>
+    <footer class="bg-dark text-center text-white p-2">
+        <p>Developed By Mohammed</p>
+    </footer>
+</body>
+</html>
