@@ -1,1 +1,4 @@
-# web-development
+# Types of Style
+* inline
+* internal
+* external
