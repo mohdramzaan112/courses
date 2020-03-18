@@ -1,0 +1,18 @@
+ul {
+    background: black;
+    text-align: center;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 7px;
+}
+li:hover {
+    background: red;
+
+}
