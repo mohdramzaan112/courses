@@ -1,0 +1,30 @@
+<!-- Selectors (id,class,tag,css,object) -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>selectors</title>
+	</head>
+	<body>
+		<input id="username" type="text" />
+		<h1>Hello World</h1>
+		<p class="para">Paragraph</p>
+		<p>Another paragraph</p>
+		<button onclick="fun()">Get Username</button>
+		<script>
+			document.getElementsByClassName("para")[0].style.color = "red";
+			document.getElementsByTagName("p")[1].style.backgroundColor =
+				"green";
+			document.querySelector("p").innerHTML = "Changed text";
+			document.querySelectorAll("p")[1].innerHTML = "Just Changed text";
+
+			document.title = "updated";
+
+			function fun() {
+				var username = document.getElementById("username").value;
+				alert(username);
+				document.body.innerHTML = "";
+			}
+		</script>
+	</body>
+</html>
