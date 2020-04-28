@@ -1,0 +1,31 @@
+<!-- Alert, Console, Prompt, Confirm -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>messages</title>
+	</head>
+	<body>
+		<h1>Messages</h1>
+		<button onclick="alertFun()">Alert</button>
+		<button onclick="consoleFun()">Console</button>
+		<button onclick="promptFun()">Prompt</button>
+		<button onclick="confirmFun()">Confirm</button>
+		<script>
+			function alertFun() {
+				alert("Alert Message");
+			}
+			function consoleFun() {
+				console.log("console message here");
+			}
+			function promptFun() {
+				var message = prompt("prompt message", "Enter something");
+				console.log(message);
+			}
+			function confirmFun() {
+				var userinput = confirm("You are sure?");
+				console.log(userinput);
+			}
+		</script>
+	</body>
+</html>
