@@ -4,14 +4,14 @@
 
 - 👉Developer tools
 
-☑️Console
-☑️Network
-☑️Local storage
+- ☑️Console
+- ☑️Network
+- ☑️Local storage
 
-🙇Bonus concepts
+- 🙇Bonus concepts
 
-🔸Website Responsiveness
-🔸Inspector
-🔸Add CSS from browser
+- 🔸Website Responsiveness
+- 🔸Inspector
+- 🔸Add CSS from browser
 
-Happy Coding
+- Happy Coding
