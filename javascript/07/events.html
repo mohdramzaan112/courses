@@ -1,0 +1,29 @@
+<!-- Events (onclick, onchange, onmouseover, onmouseout, onload) -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>events</title>
+	</head>
+	<body onload="alert('Page is loaded')">
+		<h1>Events in Javascript</h1>
+		<button onclick="alert('Yes you clicked me')">Click Here</button>
+		<input type="text" onchange="funChange()" />
+
+		<p id="para" onmouseover="funMouseover()" onmouseout="funMouseout()">
+			This is a paragraph
+		</p>
+
+		<script>
+			function funMouseout() {
+				document.getElementById("para").style.backgroundColor = "green";
+			}
+			function funMouseover() {
+				document.getElementById("para").style.backgroundColor = "red";
+			}
+			function funChange() {
+				alert("Something changed");
+			}
+		</script>
+	</body>
+</html>
